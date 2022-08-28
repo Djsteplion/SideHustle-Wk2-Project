@@ -1,0 +1,152 @@
+.iconclass a{
+    display:block;
+    text-align:center;
+    padding: 26px 8px;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.iconclass a:hover{
+    background-color: #F1D5BB;
+    border:5px solid black;
+}
+.iconclass{
+    background-color: black;
+    width: 5%;
+   
+    height: 100%;
+    border-radius: 20px;
+}
+.major{
+   display:flex;
+}
+
+.mid{
+   display: flex;
+   padding-left: 50px;
+}
+
+.food-bill{
+    padding-left: 50px;
+}
+
+.food-container{
+    background-color: #F1D5BB;
+}
+
+.food{
+   display: flex;
+}
+.bg-image1{
+    border:1px solid black;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-image: url("smashed-avo.png");
+    background-position: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.bg-image2{
+    border:1px solid black;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-image: url("yin&yang.png");
+    background-position: center;
+    padding: 5px;
+    margin: 10px;
+}
+.bg-image3{
+    border:1px solid black;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-image: url("pancakes.png");
+    background-position: center;
+    padding: 5px;
+    margin: 10px;
+
+}
+.bg-image4{
+    border:1px solid black;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-image: url("rancheros-tofu.png");
+    background-position: center;
+    padding: 5px;
+    margin: 10px;
+    
+}
+.text-and-price{
+    padding-left: 35px;
+}
+.number{
+padding-left: 50px;
+padding-top: 50px;
+}
+
+#delete{
+    padding-top: 50px;
+    padding-left: 30px;
+    margin: 10px;
+}
+.food-bill{
+    
+    margin-left: 50px;
+    
+}
+.subtotal{
+    background-color: #F1D5BB;
+    width: 100%;
+    margin:0;
+   border: 1px solid #F1D5BB;
+   padding-left: 20px;
+}
+.promo-code{
+    border: 1px solid #F1D5BB;
+    padding-left: 20px;
+    width:100%;
+
+}
+.flex-promo{
+    display:flex;
+    flex-direction: column;
+}
+.flex-promo a{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding: 7px 12px;
+    transition: ease 1.2s;
+}
+.flex-promo a:hover{
+      background-color: #F1D5BB;
+      color:black;
+}
+.subtotal a{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding: 7px 12px;
+    transition: 1s;
+}
+.subtotal a:hover{
+   
+      letter-spacing: 6px;
+}
+.sus{
+    font-size: 52px;
+    color:#F1D5BB;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 0;
+}
+.active{
+   background-color: red;
+}
+.current{
+    background-color: #F1D5BB;
+}

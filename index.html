@@ -4,153 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        *{
-            box-sizing: border-box;
-        }
+    <meta name="author" content="stephen(djsteplion)" >
+    <title>Sushi Food App</title>
+    
+        <link rel="stylesheet"  href="style.css">
 
-        body{
-            background-image: url("restaurant 1 (1).png");
-             background-repeat: no-repeat;
-             background-attachment: fixed;
-             width:100%;
-            height: 100%;
-             color: white;  
-            background-size: cover;
-            font-family: 'mulish';
-
-        }
-
-        .homepage{
-            margin-top: 10%;
-            text-align: center;
-            width:100%;
-           height: 100%;
-        }
-
-        .homepage h2{
-            font-weight: 500;
-            font-size: 50px;
-       }
-       .homepage p{
-           font-size: 20px;
-           padding-top: 10px;
-           line-height: 1.6rem;
-       }
-       span{
-           font-weight: 650;
-       }
-       .control{
-           display:flex;
-           flex-direction: row;
-           justify-content: space-between;
-           padding: 30px;
-           font-size: 40px;
-           font-weight: 200;    
-       }
-        #prev, #next{
-            margin-top: -40px;
-            transition: 1s;
-        
-        
-        }
-        #prev:hover{
-            border: 1px solid rgba(0, 0, 0, 0.8);
-            background-color: rgba(0, 0, 0, 0.8);
-            border-radius: 0 3px 3px 0;
-            padding: 10px;
-            cursor:pointer;
-           
-        }
-        #next:hover{
-            border: 1px solid rgba(0, 0, 0, 0.8);
-            background-color: rgba(0, 0, 0, 0.8);
-            border-radius: 3px 0;
-            padding: 10px; 
-            cursor: pointer;
-            
-            
-        }
-       .menu-cart a{
-          text-decoration: none;
-          color: black;
-          border: 1px solid white;
-          background: white;
-          padding:8px 22px;
-          margin:15px;
-          font-size: 20px;
-           transition: 1s;
-       }
-
-       a:hover{
-           letter-spacing: 6px;
-           background-color: rgba(0, 0, 0, 0.5);
-           color:white;
-           border:1px solid black;
-
-       }
-
-       @media screen and (max-width: 700px;) {
-        .homepage h2{
-            font-weight: 100;
-            font-size: 20px;
-       }
-           
-            body{
-            background-image: url("restaurant 1 (1).png");
-             background-position: center;
-             width:100%;
-             min-height: 200vh;
-             color: white;  
-            background-size: cover;
-            font-family: 'mulish';
-
-        }
-           span{
-              font-weight: 400; }
-
-       .homepage p{
-           font-size: 14px;
-           padding-top:8px;
-           line-height: 1.6rem;       
-    }
-    .control{
-           display:flex;
-           flex-direction: row;
-           justify-content: space-between;
-           padding: 20px;
-           font-size: 28px;
-           font-weight: 120;
-           top: -40px;
-       }
-       .menu-cart a{
-          text-decoration: none;
-          color: black;
-          border: 1px solid white;
-          background: white;
-          padding:8px 22px;
-          margin:15px;
-          font-size: 14px;
-       }
-}
-    </style>
 </head>
 <body>
     <div class="homepage">
         <h2>Welcome To <span>Sushi</span> Restaurant</h2>
+       <div class="fol">
         <p> People eat with their eyes and  Sushi creates an easy way for<br>
             customers to order  when they can see beautiful photos of your food </p>
     <div class="control">
     <div id="prev">&#10094;</div>
     <div id="next">&#10095;</div>
     </div>
-
+       </div>  
             <div class="menu-cart">
-                <a href="#"> MENU</a>
-                <a href="#"> CART</a>
+                <a href="menu.html"> MENU</a>
+                <a href="cart.html"> CART</a>
             </div>
     </div>
+
+  
 
 </body>
 </html>
